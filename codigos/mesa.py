@@ -22,4 +22,21 @@ class Mesa:
         print(f"Capacidad: {self.capacidad}")
         print(f"Estado: {self.estado}")
 
+    def limpiarSuperficie(self):
+        print("Método: Se ha limpiado la superficie de la mesa")
+
+    def soportarPeso(self):
+        print("Método: La mesa soporta X peso")
+
+    def colocarObjeto(self):
+        print("Método: Se le ha colocado un objeto a la mesa")
+
+    def retirarObjeto(self):
+        print("Método: Se le ha retirado el objeto a la mesa")
+
+    def rayarSuperficie(self):
+        print("Método: Se ha rayado la superficie de la mesa")
+
 mi_mesa = Mesa("Madera", "80cm", "75cm", "140cm", "Rectangular", "Café", "4 patas de madera", "25kg", "80 kg", "Nueva")
+
+
