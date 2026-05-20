@@ -22,5 +22,20 @@ class Universidad:
         print(f"Cantidad de Salones: {self.cantidad_salones}")
         print(f"Rector: {self.rector}")
 
+    def matricularEstudiante(self):
+        print("Método: La Universidad matriculó a todos sus estudiantes")
+
+    def contratarProfesor(self):
+        print("Método: La Universidad contrató a X profesor")
+
+    def abrirCicloEscolar(self):
+        print("Método: La Universidad abrió su nuevo ciclo escolar")
+
+    def firmarConvenio(self):
+        print("Método: La Universidad firmó nuevos convenios")
+
+    def organizarEventos(self):
+        print("Método: La Universidad está organizando futuros eventos")
+
 unideh = Universidad ("Logo.jpg", "Ing en Software, Turismo Alternativo, Gestión Empresarial y de Proyectos", "San Miguel", 
                       "CADU", "Virtual", "Biblioteca Digital", "Santa Catarina", None, None, "Octavio Castillo")
