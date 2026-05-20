@@ -22,4 +22,19 @@ class Telefono:
         print(f"Versión Actual: {self.version}")
         print(f"Precio: ${self.precio}")
 
+    def sacarFotografias(self):
+        print("Método: El teléfono ha sacado fotografías")
+
+    def hacerLlamada(self):
+        print("Método: El teléfono está haciendo llamada")
+
+    def abrirAplicacion(self):
+        print("Método: El teléfono puede abrir diferentes aplicaciones")
+
+    def recibirNotificaciones(self):
+        print("Método: El teléfono recibe muchas notificaciones")
+
+    def apagar(self):
+        print("Método: El teléfono se apagó")
+
 mi_iphone = Telefono("Iphone 13", "128 GB", "Azul", "74%", "TELCEL", "3", "WYKLQ7MV90", "110.29 GB", "iOS 26.4.2", "14,000")
