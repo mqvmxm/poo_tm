@@ -22,5 +22,20 @@ class Quimera:
         print(f"Elemento: {self.elemento}")
         print(f"Altura: {self.altura}")
 
+    def escupirFuego(self):
+        print("Método: La quimera ha escupido fuego")
+
+    def morder(self):
+        print("Método: La quimera ha mordido")
+
+    def volar(self):
+        print("Método: La quimera está volando")
+
+    def rugir(self):
+        print("Método: La quimera ha rugido")
+
+    def morir(self):
+        print("Método: La quimera ha muerto")
+
 mi_quimera = Quimera("León, Cabra y Serpiente", "Montañas", "85 km/h", "Extrema", "Aliento de fuego", "300 años", "Rojo y Negro", "Monkey D. Luffy", "Fuego", "5 metros")
 
