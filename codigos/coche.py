@@ -25,16 +25,16 @@ class Coche:
     def estacionarse(self):
         print(f"Método: El coche se ha estacionado")
 
-    def activar_seguros(self):
+    def activarSeguros(self):
         print(f"Método: El coche ha activado los seguros")
 
-    def conectar_bluetooth(self):
+    def conectarBluetooth(self):
         print(f"Metodo: Dispositivo bluetooth conectado")
 
-    def activar_limpia_parabrisas(self):
+    def activarLimpiaParabrisas(self):
         print(f"Se ha activado el limpia parabrisas")
 
-    def prender_luces(self):
+    def prenderLuces(self):
         print(f"Se han prendido las luces")
 
 mi_coche = Coche(4, "Automática", 5, True, "ABS", True, "450 lts", "REY-20-06", "Delantera", True)
