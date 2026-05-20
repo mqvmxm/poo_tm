@@ -34,7 +34,7 @@ class Transporte:
         def detener(self):
             print("Método: El transporte se ha detenido")
 
-        def cargar_combustible(self):
+        def cargarCombustible(self):
             print("Método: Se ha cargado combustible al transporte")
 
 mi_transporte = Transporte("Terrestre", 3, "20 Toneladas", "110 km/h", "Kenworth", "T680", "Azul", 250000, "8 Toneladas", "Diesel")

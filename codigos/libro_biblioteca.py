@@ -28,7 +28,7 @@ class LibroBiblioteca:
     def renovar(self):
         print("Método: El libro ha sido renovado")
     
-    def extender_dias(self):
+    def extenderDias(self):
         print("Método: Se han extendido días")
 
     def leer(self):
