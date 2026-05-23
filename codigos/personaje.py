@@ -22,19 +22,44 @@ class Personaje:
         print(f"Rango de Estiramiento: {self.rango_estiramiento}")
         print(f"Inmunidad a la Electricidad: {self.inmunidad_electricidad}")
 
-    def atacar(self):
+    def atacar(self) -> None:
+        """
+        El personaje realiza un ataque al oponente
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: El personaje ataca")
 
-    def ejecutarHabilidad(self):
+    def ejecutarHabilidad(self) -> None:
+        """
+        El personaje ejecuta sus habilidades de ataque 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: El personaje ejecuta su habilidad")
 
-    def recibirDaño(self):
+    def recibirDaño(self) -> None:
+        """
+        El personaje recibe un ataque por parte del otro jugador
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: El personaje ha recibido daño")
         
-    def ganarExperiencia(self):
+    def ganarExperiencia(self) -> None:
+        """
+        Conforme avanza el personaje va aumentando su experiencia 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: El personaje ha ganado experiencia")
     
-    def equiparAccesorios(self):
+    def equiparAccesorios(self) -> None:
+        """
+        El personaje equipa sus accesorios necesarios 
+
+        Este método recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: El personaje ha equipado sus accesorios")
 
 mi_personaje = Personaje("Luffy", 40, 410, 580, "Pistol", 500, 2.0, 2450, 15.5, True)
