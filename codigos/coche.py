@@ -22,19 +22,44 @@ class Coche:
         print(f"Tracción: {self.traccion}")
         print(f"¿Tiene ventanas eléctricas? {self.ventanas_electricas}")
 
-    def estacionarse(self):
+    def estacionarse(self) -> None:
+        """
+        El coche realiza el movimiento para estacionarse
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print(f"Método: El coche se ha estacionado")
 
-    def activarSeguros(self):
+    def activarSeguros(self) -> None:
+        """
+        Bloquea las puertas por seguridad
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print(f"Método: El coche ha activado los seguros")
 
-    def conectarBluetooth(self):
+    def conectarBluetooth(self) -> None:
+        """
+        Se establece una conexión inalámbrica con algún otro dispositivo
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print(f"Metodo: Dispositivo bluetooth conectado")
 
-    def activarLimpiaParabrisas(self):
+    def activarLimpiaParabrisas(self) -> None:
+        """
+        Se activan los Limpia Parabrisas para mejorar la visibilidad
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print(f"Se ha activado el limpia parabrisas")
 
-    def prenderLuces(self):
+    def prenderLuces(self) -> None:
+        """
+        Se encienden las luces principales del coche 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print(f"Se han prendido las luces")
 
 mi_coche = Coche(4, "Automática", 5, True, "ABS", True, "450 lts", "REY-20-06", "Delantera", True)
