@@ -22,19 +22,44 @@ class Universidad:
         print(f"Cantidad de Salones: {self.cantidad_salones}")
         print(f"Rector: {self.rector}")
 
-    def matricularEstudiante(self):
+    def matricularEstudiante(self) -> None:
+        """
+        Registra el identificador de los estudiantes 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La Universidad matriculó a todos sus estudiantes")
 
-    def contratarProfesor(self):
+    def contratarProfesor(self) -> None:
+        """
+        Se realiza el proceso de incorporación de nuevos docentes
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La Universidad contrató a X profesor")
 
-    def abrirCicloEscolar(self):
+    def abrirCicloEscolar(self) -> None:
+        """
+        Se inauguran el inicio de un nuevo ciclo escolar
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La Universidad abrió su nuevo ciclo escolar")
 
-    def firmarConvenio(self):
+    def firmarConvenio(self) -> None:
+        """
+        Se establecen alianzas con diferentes instituciones
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor 
+        """
         print("Método: La Universidad firmó nuevos convenios")
 
-    def organizarEventos(self):
+    def organizarEventos(self) -> None:
+        """
+        Planifica diferentes actividades académicas o culturales 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La Universidad está organizando futuros eventos")
 
 unideh = Universidad ("Logo.jpg", "Ing en Software, Turismo Alternativo, Gestión Empresarial y de Proyectos", "San Miguel", 
