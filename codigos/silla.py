@@ -22,19 +22,44 @@ class Silla:
         print(f"Estado de uso: {self.estado_uso}")
         print(f"Precio: ${self.precio}")
 
-    def soportarPeso(self):
+    def soportarPeso(self) -> None:
+        """
+        Se le coloca peso a la silla 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La silla soporta x peso")
 
-    def limpiar(self):
+    def limpiar(self) -> None:
+        """
+        Se le realiza una limpieza a la silla
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La silla se limpia")
 
-    def desplazar(self):
+    def desplazar(self) -> None:
+        """
+        La silla realiza un desplazamiento hacia otro lugar
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La silla se puede desplazar")
 
-    def ajustarAltura(self):
+    def ajustarAltura(self) -> None:
+        """
+        La persona ajusta la altura de la silla para su comodidad
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La silla puede ajustar su altura")
 
-    def girar(self):
+    def girar(self) -> None:
+        """
+        La persona sentada en la silla comienza a girar 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La silla puede girar")
     
 mi_silla = Silla("120 cm", "DRAKE", "60cm", "Metal", "Gris y Negro", "60 kg", True, "3", "Nueva", "600")
