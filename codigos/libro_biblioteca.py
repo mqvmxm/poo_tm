@@ -22,19 +22,45 @@ class LibroBiblioteca:
         print(f"Disponibilidad: {self.disponible}")
         print(f"Idioma: {self.idioma}")
 
-    def prestar(self):
+    def prestar(self) -> None:
+        """
+        Se realiza el préstamo del libro al interesado
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: El libro ha sido prestado")
     
-    def renovar(self):
+    def renovar(self) -> None:
+        """
+        Se renueva la fecha de devolución
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: El libro ha sido renovado")
     
-    def extenderDias(self):
+    def extenderDias(self) -> None:
+        """
+        Se extienden los días para la fecha de entrega
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: Se han extendido días")
 
-    def leer(self):
+    def leer(self) -> None:
+        """
+        El usuario lee y analiza el contenido del libro
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: El libro ha sido leído")
 
-    def estudiar(self):
+    def estudiar(self) -> None:
+        """
+        El usuario utiliza el libro como material de estudio
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: El libro es para estudiar")
 
 mi_libro = LibroBiblioteca("Harry Potter y la Piedra Filosofal", "J.K Rowling", "Bloomsbury", 223, True, 1997, "Fantasía", "Bueno", True, "Español")
+
