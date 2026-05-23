@@ -22,19 +22,44 @@ class Transporte:
         print(f"Peso: {self.peso}")
         print(f"Combustible: {self.combustible}")
 
-        def encender(self):
+        def encender(self) -> None:
+            """
+            Se activa el motor del transporte
+
+            Este método no recibe argumentos adicionales ni hace return hacia otro valor
+            """
             print("Método: El transporte se ha encendido")
 
-        def apagar(self):
+        def apagar(self) -> None:
+            """
+            El transporte se ha apagado automáticamente
+
+            Este método no recibe argumentos adicionales ni hace return hacia otro valor
+            """
             print("Método: El transporte se ha apagado")
 
-        def avanzar(self):
+        def avanzar(self) -> None:
+            """
+            Inicia el movimiento del transporte hacia adelanta
+
+            Este método no recibe argumentos adicionales ni hace return hacia otro valor
+            """
             print("Método: El transporte está avanzando")
 
-        def detener(self):
+        def detener(self) -> None:
+            """
+            Se aplican los frenos para detener el movimiento del transporte 
+
+            Este método no recibe argumentos adicionales ni hace return hacia otro valor
+            """
             print("Método: El transporte se ha detenido")
 
-        def cargarCombustible(self):
+        def cargarCombustible(self) -> None:
+            """
+            Se carga el tanque del transporte con el combustible exacto 
+
+            Este método no recibe argumentos adicionales ni hace return hacia otro valor
+            """
             print("Método: Se ha cargado combustible al transporte")
 
 mi_transporte = Transporte("Terrestre", 3, "20 Toneladas", "110 km/h", "Kenworth", "T680", "Azul", 250000, "8 Toneladas", "Diesel")
