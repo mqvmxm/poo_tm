@@ -47,7 +47,7 @@ class Alumna:
         """
         print("Método: La alumna ha obtenido su kárdex")
 
-    def aprobar(self):
+    def aprobar(self) -> None:
         """
         Verifica que la alumna ha acreditado sus asignaturas
 
@@ -55,7 +55,7 @@ class Alumna:
         """
         print("Método: La alumnna ha aprobado todas sus materias")
 
-    def registrarAsistencia(self):
+    def registrarAsistencia(self) -> None:
         """
         Se registra la asistencia de la alumna en la lista
 
