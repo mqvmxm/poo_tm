@@ -22,22 +22,49 @@ class Mesa:
         print(f"Capacidad: {self.capacidad}")
         print(f"Estado: {self.estado}")
 
-    def limpiarSuperficie(self):
+    def limpiarSuperficie(self) -> None:
+        """
+        Se remueve la suciedad de la superficie
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: Se ha limpiado la superficie de la mesa")
 
-    def soportarPeso(self):
+    def soportarPeso(self) -> None:
+        """
+        Sostiene una carga sobre la superficie 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La mesa soporta X peso")
 
-    def colocarObjeto(self):
+    def colocarObjeto(self) -> None:
+        """
+        Se añade un objeto a la superficie 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: Se le ha colocado un objeto a la mesa")
 
-    def retirarObjeto(self):
+    def retirarObjeto(self) -> None:
+        """
+        Se quitan los objetos que se encuentran en la superficie
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: Se le ha retirado el objeto a la mesa")
 
-    def rayarSuperficie(self):
+    def rayarSuperficie(self) -> None:
+        """
+        Se realizan marcas o daños a la superficie 
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: Se ha rayado la superficie de la mesa")
 
 mi_mesa = Mesa("Madera", "80cm", "75cm", "Vintage", "Rectangular", "Café", "4 patas de madera", "25kg", "80 kg", "Nueva")
+
+
 
 
 
