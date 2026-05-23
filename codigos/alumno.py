@@ -1,4 +1,4 @@
-class Alumno:
+class Alumna:
     def __init__(self, nombre, apellidos, edad, matricula, universidad, carrera, grupo, telefono, semestre, promedio_general):
         self.nombre = nombre
         self.apellidos = apellidos
@@ -23,20 +23,46 @@ class Alumno:
         print(f"Promedio General: {self.promedio_general}")
 
 
-    def inscribir(self):
+    def inscribir(self) -> None:
+        """
+        Registra a la alumna en el ciclo escolar
+        
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La alumna se ha inscrito")
 
-    def aplicarBeca(self):
+    def aplicarBeca(self) -> None:
+        """
+        Inicia el proceso de solicitud para una beca estudiantil
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La alumna ha aplicado para la beca")
 
-    def obtenerKardex(self):
+    def obtenerKardex(self) -> None:
+        """
+        Consulta el historial académico de la alumna
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
+
         print("Método: La alumna ha obtenido su kárdex")
 
-    def aprobar(self):
+    def aprobar(self) -> None:
+        """
+        Verifica y confirma que la alumna ha acreditado las asignaturas
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La alumnna ha aprobado todas sus materias")
 
-    def registrarAsistencia(self):
+    def registrarAsistencia(self) -> None:
+        """
+        Se registra la presencia de la alumna en la lista de asistencia
+
+        Este método no recibe argumentos adicionales ni hace return hacia otro valor
+        """
         print("Método: La alumna ha registrado su asistencia del día")
 
-mi_alumna = Alumno("Ariadna Aleyda", "Romero Gonzalez", 20, 1725110987, "UAEH Instituto de Artes", "Licenciatura en Música", 20,
+mi_alumna = Alumna("Ariadna Aleyda", "Romero Gonzalez", 20, 1725110987, "UAEH Instituto de Artes", "Licenciatura en Música", 20,
                    77577777, "Segundo", 9.5)
